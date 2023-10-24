@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    // "lib": ["ESNext", "DOM"],
+    "moduleResolution": "node",
+    "module": "ES2022",
+    "target": "ES2022",
+    // "checkJs": true,
+    "jsx": "react",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"],
+      "/*": ["../public/*"]
+    }
+  },
+  "include": ["src/**/*.js", "src/**/*.jsx"],
+  "exclude": ["node_modules"]
+}
